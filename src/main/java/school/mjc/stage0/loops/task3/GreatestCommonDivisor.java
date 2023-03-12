@@ -4,7 +4,7 @@ public class GreatestCommonDivisor {
     public void printGCD(int first, int second) {
         int result = 0;
         if (first == 0 || second == 0) {
-            return;
+            System.out.println(first + "" + second);
         } else if (first > second) {
             first = first + second;
             second = first - second;
